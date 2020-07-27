@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Article' => $baseDir . '/app/Article.php',
+    'App\\Category' => $baseDir . '/app/Category.php',
     'App\\Comment' => $baseDir . '/app/Comment.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
@@ -36,6 +37,7 @@ return array(
     'App\\Providers\\RouteServiceProvider' => $baseDir . '/app/Providers/RouteServiceProvider.php',
     'App\\User' => $baseDir . '/app/User.php',
     'ArithmeticError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+    'ArticlesTableSeeder' => $baseDir . '/database/seeds/ArticlesTableSeeder.php',
     'ArticlesTableSeederes' => $baseDir . '/database/seeds/ArticlesTableSeederes.php',
     'AssertionError' => $vendorDir . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
@@ -111,6 +113,8 @@ return array(
     'Carbon\\Traits\\Units' => $vendorDir . '/nesbot/carbon/src/Carbon/Traits/Units.php',
     'Carbon\\Traits\\Week' => $vendorDir . '/nesbot/carbon/src/Carbon/Traits/Week.php',
     'Carbon\\Translator' => $vendorDir . '/nesbot/carbon/src/Carbon/Translator.php',
+    'CategoriesTableSeeder' => $baseDir . '/database/seeds/CategoriesTableSeeder.php',
+    'CommentsTableSeeder' => $baseDir . '/database/seeds/CommentsTableSeeder.php',
     'Cron\\AbstractField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
     'Cron\\CronExpression' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
     'Cron\\DayOfMonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
