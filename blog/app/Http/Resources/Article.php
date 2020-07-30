@@ -18,12 +18,16 @@ class Article extends JsonResource
     {
         return [
             'id' => $this->id,
-            'title' => $this->title,
+            'tittle' => $this->tittle,
             'body' => $this->body,
+            'user'=>"/api/users/".$this->user_id,
+            'category'=>"/api/categories/".$this->categoy_id,
+            'image'=>$this->image,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
-            'user' => "api/users/".$this->user_id,
-            'category' => "api/categories".$this->category_id,
+
+
         ];
     }
+
 }
